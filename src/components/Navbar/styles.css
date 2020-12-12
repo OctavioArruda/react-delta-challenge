@@ -1,0 +1,58 @@
+header {
+  background-color: #111;
+  padding: 2rem 0;
+}
+
+header .container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+#logo {
+  text-decoration: none;
+  font-size: 3rem;
+  color: #fafafa;
+  letter-spacing: 0.4rem;
+  text-transform: uppercase;
+}
+
+.navbar-button {
+  background-color: transparent;
+  border: none;
+  width: 2.9rem;
+  height: 2rem;
+  position: relative;
+}
+
+.navbar-button__bars::after,
+.navbar-button__bars::before {
+  content: "";
+}
+
+.navbar-button__bars,
+.navbar-button__bars::after,
+.navbar-button__bars::before {
+  position: absolute;
+  background-color: #fff;
+  height: 3px;
+  left: 0;
+  width: 100%;
+}
+
+.navbar-button__bars {
+  top: 50%;
+
+  transform: translateY(-50%);
+}
+
+.navbar-button__bars::after {
+  bottom: -10px;
+  width: 80%;
+  right: 0;
+  left: auto;
+}
+
+.navbar-button__bars::before {
+  top: -10px;
+}

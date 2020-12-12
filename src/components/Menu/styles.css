@@ -1,0 +1,50 @@
+.menu-nav {
+  z-index: 2;
+  background-color: #ffc502;
+  padding: 2.4rem 3.3rem;
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 31.8rem;
+  transform: translate3d(100%, 0, 0);
+  transition: transform 200ms ease-in-out;
+  will-change: transform;
+}
+
+.menu-nav--expanded {
+  transform: translate3d(0, 0, 0);
+}
+
+.close-button {
+  background-color: transparent;
+  border: none;
+  font-size: 3rem;
+}
+
+.menu-list {
+  list-style: none;
+  margin-top: 8.2rem;
+}
+
+.menu-list__item {
+  font-size: 2rem;
+  line-height: 2.6rem;
+  margin-bottom: 5.4rem;
+  margin-left: 2.3rem;
+}
+
+.menu-list__item a {
+  color: #000;
+  text-decoration: none;
+}
+
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
