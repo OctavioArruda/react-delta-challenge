@@ -1,3 +1,20 @@
+:root {
+  --primary-color: #FFC502;
+  --secondary-color: #000000;
+  --button-disabled: #333333;
+  --button-enabled: #000000;
+}
+
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: default;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,6 +23,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color:var(--primary-color);
 }
 
 html {
