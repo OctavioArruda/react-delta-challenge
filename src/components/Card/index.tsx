@@ -29,6 +29,7 @@ const Card: FC<Props> = ({
             .fill(0)
             .map((_, current) => (
               <button
+                key={current}
                 onClick={() => onIndexChange(current)}
                 className={index === current ? "active" : ""}
               ></button>
