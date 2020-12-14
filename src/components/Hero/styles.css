@@ -1,0 +1,21 @@
+.hero-container {
+    display: flex;
+    align-items: center;
+    background: var(--secondary-color) url("/src/assets/bg-1-fixed.png") center bottom no-repeat;
+    background-size: cover;
+    height: 56.2rem;
+}
+
+.hero-container h1 {
+    display: flex;
+    color: #fff;
+    font-size: 7rem;
+}
+
+.primary-line-trace {
+    display: block;
+    margin-top: 4rem;
+    width: 15rem;
+    height: 2rem;
+    background-color: var(--primary-color);
+}
