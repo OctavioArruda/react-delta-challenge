@@ -1,4 +1,6 @@
 .card-container {
+  position: relative;
+  top: -10.7rem;
   display: flex;
   align-items: center;
 }
