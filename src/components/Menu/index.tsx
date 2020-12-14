@@ -16,16 +16,16 @@ const Menu: FC<Props> = ({ onButtonClick, isExpanded }) => {
         </button>
         <ul className="menu-list">
           <li className="menu-list__item">
-            <a href="#">Menu 1</a>
+            <a href="#/">Menu 1</a>
           </li>
           <li className="menu-list__item">
-            <a href="#">Menu 2</a>
+            <a href="#/">Menu 2</a>
           </li>
           <li className="menu-list__item">
-            <a href="#">Menu 3</a>
+            <a href="#/">Menu 3</a>
           </li>
           <li className="menu-list__item">
-            <a href="#">Menu 4</a>
+            <a href="#/">Menu 4</a>
           </li>
         </ul>
       </nav>

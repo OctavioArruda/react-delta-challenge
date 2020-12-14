@@ -9,7 +9,7 @@ const Navbar: FC<Props> = ({ onButtonClick }) => {
     return(
         <header>
             <div className="container">
-                <a href="" className="" id="logo">
+                <a href="#/" className="" id="logo">
                     Logo
                 </a>
                 <button className="navbar-button" onClick={onButtonClick}>
