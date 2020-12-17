@@ -1,5 +1,4 @@
 import React, { useState, FC } from "react";
-import "./styles.css";
 
 import Card from "../Card";
 
